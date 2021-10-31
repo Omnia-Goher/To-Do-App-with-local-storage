@@ -1,0 +1,80 @@
+body {
+    padding: 20px;
+}
+
+.form-container, .task-container {
+    background-color: #d3d3d373;
+    margin: auto 20%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form-container {
+    padding: 30px 20px 30px 20px;
+}
+
+.task-container {
+    margin-top: 20px;
+    padding: 30px 50px 30px 50px;
+}
+
+.task-form input, .task-form button {
+    height: 35px;
+}
+
+.task-form input {
+    width: 70%;
+    border-style: none;
+    border-radius: 7px;
+}
+
+.task-form input:focus {
+    outline: none;
+    border-bottom: 2px solid #ff6826;
+    padding-inline-start: 10px;
+}
+
+.task-form button, .delete-button {
+    background-color: #ff6826;
+    color: #ffff;
+    border-radius: 7px;
+}
+
+.task-form button, .delete-button, .task {
+    cursor: pointer;
+}
+
+.task-form button {
+    width: 20%;
+    border-style: none;
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
+
+.task-form button:hover, .delete-button:hover {
+    background-color: #ff6726cc;
+}
+
+.task {
+    background-color: #ffff;
+    height: 25px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 7px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task:last-child {
+    margin-bottom: 0;
+}
+
+.delete-button {
+    padding: 3px 7px 7px 7px;
+}
+
+.done {
+    opacity: 0.5;
+}
